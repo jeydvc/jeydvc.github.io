@@ -3,37 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro</title>
-    <link rel="stylesheet" href="./registro.css">
+    <title>Blog Personal</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="css/font/flaticon.css">
 </head>
-<body>
-    <header class="header">
-        <img src="../PlatziVideo/logo-platzi-video-BW2.png" alt="Logo">
-    </header>
-    <main class="register">
-        <section class="register__container">
-            <div class="register__container_div">
-                <h2>Regístrate</h2>
-            </div>
-            <div>
-                <form class="register__container--form" action="">
-                    <input class="input" type="text" placeholder="Nombre">
-                    <input class="input" type="text" placeholder="Correo">
-                    <input class="input" type="password" placeholder="Contraseña">
-                    <div>
-                        <button class="button">Registrarme</button>
-                    </div>
-                </form>
-            </div>
-            <div class="register__inicio">
-                <a class="register__inicio_a" href="/">Inicia Sesión</a>
+<body class="home-body">
+    <header>
+        <section class="header-icons-container">
+            <div class="icons">
+                <a href="/"><span class="fimanager flaticon-001-facebook"></span></a>
+                <a href="/"><span class="fimanager flaticon-002-twitter"></span></a>
+                <a href="/"><span class="fimanager flaticon-003-whatsapp"></span></a>
+                <a href="/"><span class="fimanager flaticon-010-linkedin"></span></a>
+                <a href="/"><span class="fimanager flaticon-008-youtube"></span></a>
             </div>
         </section>
+        <nav>
+            <section class="nav-logo-container">
+                <a href="/"><img src="./assets/logo-negro.png" alt="Logo de mi blog"></a>
+            </section>
+            <section class="profile-link">
+                <a href="perfil.html">Sobre mí</a>
+            </section>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="main-title">
+            <h1>Conoce las novedades y <br> noticias del Mundo Tech</h1>
+        </div>
+        <div class="main-button">
+            <button>
+                <a href="blogs.html" target="_blank" >Entra ya!</a>    
+            </button>
+        </div>
     </main>
-    <footer class="footer">
-        <a href="/">Términos de uso</a>
-        <a href="/">Declaración de privacidad</a>
-        <a href="/">Centro de ayuda</a>
-    </footer>
 </body>
 </html>
